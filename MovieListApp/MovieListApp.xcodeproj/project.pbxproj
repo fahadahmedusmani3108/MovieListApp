@@ -19,6 +19,7 @@
 		2916FF1B295C68030008061D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FF1A295C68030008061D /* Movie.swift */; };
 		29D5DAC6295CC89F0039C45D /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC5295CC89F0039C45D /* SortView.swift */; };
 		29D5DAC8295CD1690039C45D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC7295CD1690039C45D /* ListView.swift */; };
+		29D5DACA295CDA330039C45D /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC9295CDA330039C45D /* MovieListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2916FF1A295C68030008061D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		29D5DAC5295CC89F0039C45D /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
 		29D5DAC7295CD1690039C45D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		29D5DAC9295CDA330039C45D /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				2916FF17295C57530008061D /* MovieListRow.swift */,
 				29D5DAC5295CC89F0039C45D /* SortView.swift */,
 				29D5DAC7295CD1690039C45D /* ListView.swift */,
+				29D5DAC9295CDA330039C45D /* MovieListViewModel.swift */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				2916FEEC295C40440008061D /* ContentView.swift in Sources */,
 				2916FF18295C57530008061D /* MovieListRow.swift in Sources */,
 				2916FEEA295C40440008061D /* MovieListAppApp.swift in Sources */,
+				29D5DACA295CDA330039C45D /* MovieListViewModel.swift in Sources */,
 				29D5DAC8295CD1690039C45D /* ListView.swift in Sources */,
 				2916FF14295C54DA0008061D /* MovieListView.swift in Sources */,
 				2916FF1B295C68030008061D /* Movie.swift in Sources */,
