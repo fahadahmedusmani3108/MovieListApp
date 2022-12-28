@@ -15,6 +15,7 @@
 		2916FF05295C40470008061D /* MovieListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FF04295C40470008061D /* MovieListAppUITests.swift */; };
 		2916FF07295C40470008061D /* MovieListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FF06295C40470008061D /* MovieListAppUITestsLaunchTests.swift */; };
 		2916FF14295C54DA0008061D /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FF13295C54DA0008061D /* MovieListView.swift */; };
+		2916FF18295C57530008061D /* MovieListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FF17295C57530008061D /* MovieListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2916FF04295C40470008061D /* MovieListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListAppUITests.swift; sourceTree = "<group>"; };
 		2916FF06295C40470008061D /* MovieListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2916FF13295C54DA0008061D /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		2916FF17295C57530008061D /* MovieListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +98,11 @@
 		2916FEE8295C40430008061D /* MovieListApp */ = {
 			isa = PBXGroup;
 			children = (
+				2916FF15295C56D70008061D /* Scenes */,
 				2916FEE9295C40440008061D /* MovieListAppApp.swift */,
 				2916FEEB295C40440008061D /* ContentView.swift */,
 				2916FEED295C40460008061D /* Assets.xcassets */,
 				2916FEEF295C40460008061D /* Preview Content */,
-				2916FF13295C54DA0008061D /* MovieListView.swift */,
 			);
 			path = MovieListApp;
 			sourceTree = "<group>";
@@ -128,6 +130,23 @@
 				2916FF06295C40470008061D /* MovieListAppUITestsLaunchTests.swift */,
 			);
 			path = MovieListAppUITests;
+			sourceTree = "<group>";
+		};
+		2916FF15295C56D70008061D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2916FF16295C57080008061D /* MovieList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2916FF16295C57080008061D /* MovieList */ = {
+			isa = PBXGroup;
+			children = (
+				2916FF13295C54DA0008061D /* MovieListView.swift */,
+				2916FF17295C57530008061D /* MovieListRow.swift */,
+			);
+			path = MovieList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2916FEEC295C40440008061D /* ContentView.swift in Sources */,
+				2916FF18295C57530008061D /* MovieListRow.swift in Sources */,
 				2916FEEA295C40440008061D /* MovieListAppApp.swift in Sources */,
 				2916FF14295C54DA0008061D /* MovieListView.swift in Sources */,
 			);
