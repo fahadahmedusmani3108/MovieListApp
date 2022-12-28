@@ -8,8 +8,36 @@
 import SwiftUI
 
 struct MovieListView: View {
+    
+    var movieList : [Movie] = [Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man"),Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man")]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        VStack(alignment: .trailing, spacing: 0){
+            
+            Button("Sort") {
+                
+            }
+            .padding(.trailing, 20)
+            .foregroundColor(.black)
+            
+            NavigationView {
+                
+                List(movieList, id: \.title) { movie in
+                    MovieListRow(movie: movie)
+                        .listRowInsets(EdgeInsets.init(top: 10, leading: 0, bottom: 10, trailing: 0))
+                }
+                
+                .padding(.trailing, 20)
+                .padding(.leading, 20)
+                .listStyle(.plain)
+                .navigationTitle("Movies")
+            }
+            
+            Spacer()
+        }
+        
     }
 }
 
