@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct MovieListView: View {
+    
         
-    var movieList : [Movie] = [Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man"),Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man")]
+    @State var movieList : [Movie] = [Movie.init(title: "Avengers1", duration: "1h-21 min", genre: "Action, Revenge", releasedDate: "01/12/2022", imageName: "Avengers"), Movie.init(title: "Tenet2", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", releasedDate: "02/12/2022", imageName: "Tenet"), Movie.init(title: "Knives Out5", duration: "1h-21 min", genre: "Action", releasedDate: "05/12/2022", imageName: "Knives Out"), Movie.init(title: "Spider Man7", duration: "1h-21 min", genre: "Action, Revenge", releasedDate: "07/12/2022", imageName: "Spider Man"),Movie.init(title: "Avengers3", duration: "1h-21 min", genre: "Action, Revenge", releasedDate: "03/12/2022", imageName: "Avengers"), Movie.init(title: "Tenet4", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", releasedDate: "04/12/2022", imageName: "Tenet"), Movie.init(title: "Knives Out9", duration: "1h-21 min", genre: "Action", releasedDate: "9/12/2022", imageName: "Knives Out"), Movie.init(title: "Spider Man2", duration: "1h-21 min", genre: "Action, Revenge", releasedDate: "02/12/2022", imageName: "Spider Man1")]
+    
+    
     
     var body: some View {
         
@@ -17,7 +20,7 @@ struct MovieListView: View {
                 
         VStack(alignment: .trailing, spacing: 0){
             
-            SortView()
+            SortView(movieList: $movieList)
             .padding(.trailing, 20)
             
             ListView(movieList: movieList)

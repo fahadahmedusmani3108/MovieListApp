@@ -10,6 +10,7 @@ import SwiftUI
 struct SortView: View {
    
     @State var presentAlert : Bool = false
+    @Binding var movieList : [Movie]
     
     var body: some View {
       
@@ -22,11 +23,11 @@ struct SortView: View {
         .alert("Sort By", isPresented: $presentAlert) {
                 
                 Button("Title") {
-                    
+                    movieList.sort(by: { $0.title! < $1.title! })
                 }
                 
                 Button("Release Date") {
-                    
+                    movieList.sort(by: { $0.releasedDate! < $1.releasedDate! })
                 }
                 
                 Button("Cancel") {}
