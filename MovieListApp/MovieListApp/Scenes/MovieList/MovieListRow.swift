@@ -10,7 +10,26 @@ import SwiftUI
 struct MovieListRow: View {
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      
+        HStack(spacing: 20) {
+            
+            Image("Avengers")
+                .resizable()
+                .frame(width: 80, height: 120)
+            
+            VStack(alignment: .leading, spacing: 10, content: {
+                Text("Avengers: Age of ultron (2015)")
+                    .font(Font.headline)
+                    .bold()
+                
+                Text("2h-21min - Sci-fi,Action, Adventure")
+                    .font(Font.subheadline)
+                    .foregroundColor(Color.gray)
+                
+            })
+            Spacer()
+        }
+        .padding(.leading, 20)
     }
     
 }
