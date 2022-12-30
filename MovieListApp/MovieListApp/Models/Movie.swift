@@ -11,7 +11,7 @@ class Movie : Codable{
     
     var title : String?
     var description: String?
-    var rating : String?
+    var rating : Double?
     var duration: String?
     var genre : String?
     var releasedDate: String?
@@ -19,7 +19,7 @@ class Movie : Codable{
     var imageName: String?
     var isAddedInWatchList: Bool?
     
-    init(title: String? = nil, description: String? = nil, rating: String? = nil, duration: String? = nil, genre: String? = nil, releasedDate: String? = nil, trailerLink: String? = nil, imageName : String? = nil, isAddedInWatchList : Bool? = nil) {
+    init(title: String? = nil, description: String? = nil, rating: Double? = nil, duration: String? = nil, genre: String? = nil, releasedDate: String? = nil, trailerLink: String? = nil, imageName : String? = nil, isAddedInWatchList : Bool? = nil) {
         self.title = title
         self.description = description
         self.rating = rating

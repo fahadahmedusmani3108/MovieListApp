@@ -7,18 +7,20 @@
 
 import SwiftUI
 
-struct MovieListView: View {
+struct MovieListView<vm: MovieListViewModelProtocol> : View {
     
-    @ObservedObject var viewModel : MovieListViewModel
+    @StateObject private var viewModel : vm
+    
+    init(viewModel: vm) {
+        _viewModel = StateObject(wrappedValue: viewModel)
+    }
     
     var body: some View {
-        
-        
         
         VStack(alignment: .trailing, spacing: 0){
             
             SortView(movieList: $viewModel.movieList)
-            .padding(.trailing, 20)
+                .padding(.trailing, 20)
             
             ListView(movieList: viewModel.movieList)
                 .onAppear{
@@ -32,6 +34,6 @@ struct MovieListView: View {
 
 struct MovieListView_Previews: PreviewProvider {
     static var previews: some View {
-        MovieListView(viewModel: MovieListViewModel())
+        MovieListView(viewModel: MovieListViewModel(repository: MovieRepository.init(networkService: MovieNetworkService.init())))
     }
 }
