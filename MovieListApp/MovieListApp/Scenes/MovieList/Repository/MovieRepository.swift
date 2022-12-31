@@ -28,7 +28,6 @@ class MovieRepository : MovieRepositoryProtocol{
         return try saveMoviesInDB(movies: movies)
     }
     
-    //@MainActor
     private func saveMoviesInDB(movies: [Movie]) throws -> [Movie] {
         return movies
     }

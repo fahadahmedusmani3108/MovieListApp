@@ -17,17 +17,25 @@ struct MovieListView<vm: MovieListViewModelProtocol> : View {
     
     var body: some View {
         
-        VStack(alignment: .trailing, spacing: 0){
+        ZStack{
+            VStack(alignment: .trailing, spacing: 0){
+                
+                
+                SortView(movieList: $viewModel.movieList)
+                    .padding(.trailing, 20)
+                
+                
+                ListView(movieList: viewModel.movieList)
+                    .onAppear{
+                        viewModel.loadMovies()
+                    }
+                
+                Spacer()
+            }
             
-            SortView(movieList: $viewModel.movieList)
-                .padding(.trailing, 20)
             
-            ListView(movieList: viewModel.movieList)
-                .onAppear{
-                    viewModel.loadMovies()
-                }
-            
-            Spacer()
+            LoaderView()
+                .hidden($viewModel.isLoading.wrappedValue ? false : true)
         }
     }
 }

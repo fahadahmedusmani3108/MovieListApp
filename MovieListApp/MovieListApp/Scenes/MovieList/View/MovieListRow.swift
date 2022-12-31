@@ -12,33 +12,34 @@ struct MovieListRow: View {
     var movie : Movie
     
     var body: some View {
-      
+        
         HStack(spacing: 20) {
             
             Image(movie.imageName ?? "")
                 .resizable()
                 .frame(width: 90, height: 150)
-
-                VStack(alignment: .leading, spacing: 10, content: {
-                    Text(movie.title ?? "")
-                        .font(Font.title2)
-                        .bold()
-                    
-                    Text("\(movie.duration ?? ""), \(movie.genre ?? "")")
-                        .font(Font.subheadline)
-                        .foregroundColor(Color.gray)
-                    
-                    
+            
+            VStack(alignment: .leading, spacing: 10, content: {
+                Text(movie.title ?? "")
+                    .font(Font.title2)
+                    .bold()
+                
+                Text("\(movie.duration ?? ""), \(movie.genre ?? "")")
+                    .font(Font.subheadline)
+                    .foregroundColor(Color.gray)
+                
+                if movie.isAddedInWatchList ?? false{
                     Text("ON MY WATCHLIST")
                         .font(Font.subheadline)
                         .padding(.top, 20)
-                })
-          
+                }
+                
+            })
+            
             Spacer()
         }
         .frame(height: 150)
     }
-    
 }
 
 struct MovieListRow_Previews: PreviewProvider {
