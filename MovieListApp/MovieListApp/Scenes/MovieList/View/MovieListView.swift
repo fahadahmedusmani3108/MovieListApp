@@ -10,6 +10,7 @@ import SwiftUI
 struct MovieListView<vm: MovieListViewModelProtocol> : View {
     
     @StateObject private var viewModel : vm
+    @State var refresh : Bool = false
     
     init(viewModel: vm) {
         _viewModel = StateObject(wrappedValue: viewModel)
@@ -21,10 +22,8 @@ struct MovieListView<vm: MovieListViewModelProtocol> : View {
             ZStack{
                 VStack(alignment: .trailing, spacing: 0){
                     
-                    ListView(movieList: viewModel.movieList)
-                    
-                    
-                    
+                    ListView(movieList: viewModel.movieList, refresh: $refresh)
+   
                     Spacer()
                 }
                 
@@ -40,6 +39,9 @@ struct MovieListView<vm: MovieListViewModelProtocol> : View {
             viewModel.loadMovies()
         }
         .errorAlert(error: $viewModel.error)
+        .onChange(of: refresh) { newValue in
+            viewModel.loadMovies()
+                    }
         
         
     }

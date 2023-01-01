@@ -31,7 +31,6 @@ class MovieListViewModel: MovieListViewModelProtocol{
     func loadMovies(){
         isLoading = true
         Task(){
-            
             do{
                 self.movieList = try await repository.getMovies() ?? []
                 print(movieList)
