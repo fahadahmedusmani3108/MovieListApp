@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MovieListRow: View {
     
-    var movie : Movie
+    @ObservedObject var movie : Movie
     
     var body: some View {
         
