@@ -21,21 +21,7 @@ class APIClient{
         }
         catch(let exception){
             throw exception
-          
         }
-        //        return Future(){ promise in
-        //            AF.request(route)
-        //                .responseDecodable { (response: DataResponse<T, AFError>) in
-        //
-        //                    switch response.result{
-        //                    case .success(let value):
-        //                        promise(.success(value))
-        //
-        //                    case .failure(let error):
-        //                        promise(.failure(error))
-        //                    }
-        //                }
-        //        }
     }
 }
 

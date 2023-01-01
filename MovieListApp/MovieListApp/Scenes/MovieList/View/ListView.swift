@@ -10,27 +10,29 @@ import SwiftUI
 struct ListView: View {
     
     var movieList : [Movie]
+    @Binding var refresh : Bool
     
     var body: some View {
         
-        NavigationView {
+        List(movieList, id: \.title) { movie in
             
-            List(movieList, id: \.title) { movie in
+            NavigationLink( destination: MovieDetailView(movie: movie)) {
+                
                 MovieListRow(movie: movie)
-                    .listRowInsets(EdgeInsets.init(top: 10, leading: 0, bottom: 10, trailing: 0))
+                    .listRowSeparator(.hidden)
             }
-            .padding(.trailing, 20)
-            .padding(.leading, 20)
-            .listStyle(.plain)
-            .navigationTitle("Movies")
+            
         }
-        
+        .listStyle(.plain)
+        .refreshable {
+            refresh.toggle()
+        }
     }
 }
-
-struct ListView_Previews: PreviewProvider {
-    static var previews: some View {
-        ListView(movieList: [Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man"),Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man")])
-    }
-}
+//
+//struct ListView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ListView(movieList: [Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man"),Movie.init(title: "Avengers", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Avengers"), Movie.init(title: "Tenet", duration: "1h-21 min", genre: "Action, Revenge, Revenge, Revenge Action, Revenge, Revenge, Revenge", imageName: "Tenet"), Movie.init(title: "Knives Out", duration: "1h-21 min", genre: "Action", imageName: "Knives Out"), Movie.init(title: "Spider Man", duration: "1h-21 min", genre: "Action, Revenge", imageName: "Spider Man")], refresh: Binding(projectedValue: fa))
+//    }
+//}
 

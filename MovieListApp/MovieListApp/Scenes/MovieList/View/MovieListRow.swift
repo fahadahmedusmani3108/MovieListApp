@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MovieListRow: View {
     
-    var movie : Movie
+    @ObservedObject var movie : Movie
     
     var body: some View {
         
@@ -20,6 +20,7 @@ struct MovieListRow: View {
                 .frame(width: 90, height: 150)
             
             VStack(alignment: .leading, spacing: 10, content: {
+                
                 Text(movie.title ?? "")
                     .font(Font.title2)
                     .bold()

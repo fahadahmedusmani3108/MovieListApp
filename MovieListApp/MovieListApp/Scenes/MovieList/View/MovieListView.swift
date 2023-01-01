@@ -10,33 +10,40 @@ import SwiftUI
 struct MovieListView<vm: MovieListViewModelProtocol> : View {
     
     @StateObject private var viewModel : vm
+    @State var refresh : Bool = false
     
     init(viewModel: vm) {
         _viewModel = StateObject(wrappedValue: viewModel)
     }
     
     var body: some View {
-        
-        ZStack{
-            VStack(alignment: .trailing, spacing: 0){
+        NavigationView {
+            
+            ZStack{
+                VStack(alignment: .trailing, spacing: 0){
+                    
+                    ListView(movieList: viewModel.movieList, refresh: $refresh)
+   
+                    Spacer()
+                }
                 
                 
-                SortView(movieList: $viewModel.movieList)
-                    .padding(.trailing, 20)
-                
-                
-                ListView(movieList: viewModel.movieList)
-                    .onAppear{
-                        viewModel.loadMovies()
-                    }
-                
-                Spacer()
+                LoaderView()
+                    .hidden($viewModel.isLoading.wrappedValue ? false : true)
             }
-            
-            
-            LoaderView()
-                .hidden($viewModel.isLoading.wrappedValue ? false : true)
+            .navigationTitle("Movies")
+            .toolbar {
+                SortView(movieList: $viewModel.movieList)
+            }
+        }  .onAppear{
+            viewModel.loadMovies()
         }
+        .errorAlert(error: $viewModel.error)
+        .onChange(of: refresh) { newValue in
+            viewModel.loadMovies()
+                    }
+        
+        
     }
 }
 

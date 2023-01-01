@@ -7,11 +7,11 @@
 
 import Foundation
 
-class Movie : Codable{
+class Movie : Codable, ObservableObject{
     
     var title : String?
     var description: String?
-    var rating : Double?
+    var rating : Float?
     var duration: String?
     var genre : String?
     var releasedDate: String?
@@ -19,7 +19,7 @@ class Movie : Codable{
     var imageName: String?
     var isAddedInWatchList: Bool?
     
-    init(title: String? = nil, description: String? = nil, rating: Double? = nil, duration: String? = nil, genre: String? = nil, releasedDate: String? = nil, trailerLink: String? = nil, imageName : String? = nil, isAddedInWatchList : Bool? = nil) {
+    init(title: String? = nil, description: String? = nil, rating: Float? = nil, duration: String? = nil, genre: String? = nil, releasedDate: String? = nil, trailerLink: String? = nil, imageName : String? = nil, isAddedInWatchList : Bool? = nil) {
         self.title = title
         self.description = description
         self.rating = rating
