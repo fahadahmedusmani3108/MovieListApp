@@ -6,10 +6,12 @@
 //
 
 import Combine
+import SwiftUI
 
 protocol MovieListViewModelProtocol : ObservableObject{
     var movieList: [Movie] { get set }
     var isLoading: Bool { get set }
+    var error: Error? { get set }
     func loadMovies()
 }
 
@@ -17,6 +19,8 @@ class MovieListViewModel: MovieListViewModelProtocol{
     
     @Published var movieList : [Movie] = []
     @Published var isLoading : Bool = false
+    @Published var error: Error?
+    
     private var repository: MovieRepositoryProtocol
     
     init(repository: MovieRepositoryProtocol) {
@@ -35,6 +39,8 @@ class MovieListViewModel: MovieListViewModelProtocol{
             }
             catch(let exception){
                 print(exception)
+                isLoading = false
+                error = Error.invalidResponseFromServer
             }
             
         }

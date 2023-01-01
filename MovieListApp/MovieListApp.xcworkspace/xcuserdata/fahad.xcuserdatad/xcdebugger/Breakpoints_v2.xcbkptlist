@@ -140,8 +140,8 @@
             filePath = "MovieListApp/Network/APIClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "getMovies()"
             landmarkType = "7">
             <Locations>
@@ -218,8 +218,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,8 +234,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "loadMovies()"
             landmarkType = "7">
             <Locations>
@@ -312,8 +312,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -328,8 +328,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>

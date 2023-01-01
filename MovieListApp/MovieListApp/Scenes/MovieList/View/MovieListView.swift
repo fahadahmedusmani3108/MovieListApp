@@ -39,6 +39,7 @@ struct MovieListView<vm: MovieListViewModelProtocol> : View {
         }  .onAppear{
             viewModel.loadMovies()
         }
+        .errorAlert(error: $viewModel.error)
         
         
     }

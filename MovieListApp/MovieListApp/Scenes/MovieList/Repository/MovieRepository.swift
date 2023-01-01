@@ -23,7 +23,7 @@ class MovieRepository : MovieRepositoryProtocol{
         
         guard let movies = try await networkService.getMovies()
         else{
-            throw NSError.init(domain: "", code: 1)
+            throw NSError.init(domain: "Unable to fetch movies at the moment. Please try later.", code: 1)
         }
         return try saveMoviesInDB(movies: movies)
     }
