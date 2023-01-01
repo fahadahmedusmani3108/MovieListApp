@@ -20,6 +20,7 @@ struct MovieListRow: View {
                 .frame(width: 90, height: 150)
             
             VStack(alignment: .leading, spacing: 10, content: {
+                
                 Text(movie.title ?? "")
                     .font(Font.title2)
                     .bold()

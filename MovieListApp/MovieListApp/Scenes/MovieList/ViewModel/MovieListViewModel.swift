@@ -36,7 +36,7 @@ class MovieListViewModel: MovieListViewModelProtocol{
             catch(let exception){
                 print(exception)
             }
-           
+            
         }
     }
 }

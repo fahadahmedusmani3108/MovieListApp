@@ -9,25 +9,20 @@ import SwiftUI
 
 struct ListView: View {
     
-     var movieList : [Movie]
+    var movieList : [Movie]
     
     var body: some View {
         
-        NavigationView {
+        List(movieList, id: \.title) { movie in
             
-            List(movieList, id: \.title) { movie in
-                NavigationLink( destination: MovieDetailView(movie: movie)) {
-                    
-                    MovieListRow(movie: movie)
-                        .listRowInsets(EdgeInsets.init(top: 10, leading: 0, bottom: 10, trailing: 0))
-                }
+            NavigationLink( destination: MovieDetailView(movie: movie)) {
+                
+                MovieListRow(movie: movie)
+                    .listRowSeparator(.hidden)
             }
-            .padding(.trailing, 20)
-            .padding(.leading, 20)
-            .listStyle(.plain)
-            .navigationTitle("Movies")
+            
         }
-        
+        .listStyle(.plain)
     }
 }
 
