@@ -15,16 +15,16 @@ struct DescriptionSection: View {
         
         VStack(spacing: 20){
             Text("Short Description")
-                .font(.system(size: 20))
-                .fontWeight(.bold)
+                .font(Design.Fonts.title)
+                .foregroundColor(Design.Colors.blackTitleColor)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 
             
             Text(movie.description ?? "")
-                .font(.system(size: 16))
-                .foregroundColor(.gray)
-        }
-        
+                .font(Design.Fonts.body)
+                .foregroundColor(Design.Colors.grayTextColor)
+                .padding(0)
+            }
     }
 }
 

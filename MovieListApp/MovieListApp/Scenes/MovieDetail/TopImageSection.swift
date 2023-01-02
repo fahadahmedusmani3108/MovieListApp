@@ -4,6 +4,20 @@
 //
 //  Created by Fahad Ahmed Usmani on 01/01/2023.
 //
+//
+//ZStack{
+//    HStack{
+//        Text("\(movie.rating ?? 0, specifier: "%.1f")")
+//            .font(Design.Fonts.title)
+//            .foregroundColor(Design.Colors.blackTitleColor)
+//
+//        Text("/10")
+//            .font(Design.Fonts.body)
+//            .fontWeight(.bold)
+//            .foregroundColor(Design.Colors.grayTextColor)
+//            .lineLimit(1)
+//    }
+//}
 
 import SwiftUI
 
@@ -13,36 +27,24 @@ struct TopImageSection: View {
     
     var body: some View {
         
-        HStack(spacing: 15){
+        HStack(spacing: 10){
             
-            Image(movie.imageName ?? "")
-                .resizable()
-                .frame(width: 120, height: 220)
+            VStack{
+                
+                Image(movie.imageName ?? "")
+                    .resizable()
+                    .frame(width: 120, height: 220, alignment: .top)
+                
+                Spacer()
+            }
             
             VStack(spacing: 20){
                 
-                HStack(spacing: 0){
-                    
-                    Text(movie.title ?? "")
-                        .fontWeight(.bold)
-                        .font(.system(size: 22))
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                    
-                    Spacer()
-                    
-                    Text("\(movie.rating ?? 0, specifier: "%.1f")")
-                        .font(.system(size: 22))
-                        .fontWeight(.bold)
-                    
-                    
-                    Text("/10")
-                        .font(.system(size: 16))
-                        .fontWeight(.bold)
-                        .foregroundColor(Color(red: 0.639, green: 0.643, blue: 0.643))
-                        .lineLimit(1)
-                    
-                    
-                }
+                Text(movie.title ?? "")
+                    .font(Design.Fonts.title)
+                    .foregroundColor(Design.Colors.blackTitleColor)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                
                 
                 
                 Button(action: {
@@ -52,15 +54,13 @@ struct TopImageSection: View {
                     
                 }) {
                     Text($movie.isAddedInWatchList.wrappedValue ?? false ? "REMOVE FROM WATCHLIST" : "+ ADD TO WATCHLIST")
-                        .font(.system(size: 12))
                         .padding(10)
-                        .foregroundColor(Color(red: 0.639, green: 0.643, blue: 0.643))
+                        .font(Design.Fonts.subtitle)
+                        .foregroundColor(Design.Colors.grayTextColor)
                         .fontWeight(.bold)
-                        .background(Color(red: 0.875, green: 0.875, blue: 0.875))
+                        .background(Design.Colors.lightGrayBackground)
                         .cornerRadius(20)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    
-                    
                 }
                 
                 .lineLimit(1)
@@ -72,10 +72,10 @@ struct TopImageSection: View {
                     }
                 }) {
                     Text("WATCH TRAILER")
-                        .font(.system(size: 12))
+                        .font(Design.Fonts.subtitle)
                     
                         .padding(10)
-                        .foregroundColor(.black)
+                        .foregroundColor(Design.Colors.blackTitleColor)
                         .fontWeight(.bold)
                         .cornerRadius(20)
                         .overlay(
@@ -84,10 +84,30 @@ struct TopImageSection: View {
                             
                         )
                 }
-                
                 .frame(maxWidth: .infinity, alignment: .leading)
+                
+                Spacer()
             }
-            Spacer()
+            
+            VStack{
+                HStack(spacing: 0){
+                    
+                    Text("\(movie.rating ?? 0, specifier: "%.1f")")
+                        .font(Design.Fonts.title)
+                        .foregroundColor(Design.Colors.blackTitleColor)
+                        
+                    
+                    Text("/10")
+                        .font(Design.Fonts.body)
+                        .fontWeight(.bold)
+                        .foregroundColor(Design.Colors.grayTextColor)
+                        .lineLimit(1)
+                        .padding(.trailing, 10)
+                   
+                }
+                Spacer()
+            }
+            
         }
         
     }
@@ -96,6 +116,6 @@ struct TopImageSection: View {
 struct TopImageSection_Previews: PreviewProvider {
     
     static var previews: some View {
-        TopImageSection(movie: Movie.init(title: "Avengers  .frame(maxWidth: .infinity, alignment: .leading)  .frame(maxWidth: .infinity, alignment: .leading)", rating: 8.7, duration: "1h-21 min", genre: "Action, Revenge", trailerLink: "​​https://www.youtube.com/watch?v=tmeOjFno6Do", imageName: "Avengers", isAddedInWatchList: false))
+        TopImageSection(movie: Movie.init(title: "Avengers  .frame(maxWidth: .infinity, alignment: .leading) Avengers Avengers Avengers", rating: 8.7, duration: "1h-21 min", genre: "Action, Revenge", trailerLink: "​​https://www.youtube.com/watch?v=tmeOjFno6Do", imageName: "Avengers", isAddedInWatchList: false))
     }
 }

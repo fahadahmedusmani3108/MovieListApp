@@ -12,31 +12,30 @@ struct MovieDetailView: View {
     var movie : Movie
     
     var body: some View {
-        VStack{
+        VStack(spacing: 0){
             
             TopImageSection(movie: movie)
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            Color.gray.frame(height: 1 / UIScreen.main.scale)
+            //Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             DescriptionSection(movie: movie)
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            Color.gray.frame(height: 1 / UIScreen.main.scale)
+            //Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             DetailSection(movie: movie)
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            Color.gray.frame(height: 1 / UIScreen.main.scale)
+            //Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             Spacer()
         }
         .navigationBarTitleDisplayMode(.inline)
         .padding(.leading, 20)
-        .padding(.trailing, 20)
     }
 }
 

@@ -22,16 +22,17 @@ struct MovieListRow: View {
             VStack(alignment: .leading, spacing: 10, content: {
                 
                 Text(movie.title ?? "")
-                    .font(Font.title2)
-                    .bold()
-                
+                    .foregroundColor(Design.Colors.blackTitleColor)
+                    .font(Design.Fonts.title)
+ 
                 Text("\(movie.duration ?? ""), \(movie.genre ?? "")")
-                    .font(Font.subheadline)
-                    .foregroundColor(Color.gray)
+                    .font(Design.Fonts.body)
+                    .foregroundColor(Design.Colors.grayTextColor)
                 
                 if movie.isAddedInWatchList ?? false{
                     Text("ON MY WATCHLIST")
-                        .font(Font.subheadline)
+                        .foregroundColor(Design.Colors.blackTitleColor)
+                        .font(Design.Fonts.subtitle)
                         .padding(.top, 20)
                 }
                 

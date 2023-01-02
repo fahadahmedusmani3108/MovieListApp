@@ -17,7 +17,7 @@ enum MovieRouter : APIConfiguration{
         
         switch self {
         case .getMovieList:
-            return "https://movielist1.free.beeceptor.com"
+            return API.baseUrl
         }
     }
     
@@ -25,7 +25,7 @@ enum MovieRouter : APIConfiguration{
         
         switch self {
         case .getMovieList:
-            return "/list"
+            return API.getMoviesList
         }
     }
     

@@ -15,23 +15,23 @@ struct DetailSection: View {
         
         VStack(spacing: 25){
             Text("Details")
-                .font(.system(size: 20))
-                .fontWeight(.bold)
+                .font(Design.Fonts.title)
+                .foregroundColor(Design.Colors.blackTitleColor)
                 .frame(maxWidth: .infinity, alignment: .leading)
             
             VStack(spacing: 10){
                 
                 HStack(spacing: 20){
                     Text("Genre")
-                        .font(.system(size: 16))
-                        .fontWeight(.bold)
-                        .frame(maxWidth: 120, alignment: .trailing)
+                        .font(Design.Fonts.body)
+                        .foregroundColor(Design.Colors.blackTitleColor)
+                        .frame(maxWidth: 105, alignment: .trailing)
                     
                     
                     Text(movie.genre ?? "")
-                        .font(.system(size: 16))
+                        .font(Design.Fonts.body)
+                        .foregroundColor(Design.Colors.grayTextColor)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(.gray)
                     
                     Spacer()
                 }
@@ -39,17 +39,18 @@ struct DetailSection: View {
                 
                 HStack(spacing: 20){
                     Text("Released Date")
-                        .font(.system(size: 16))
-                        .fontWeight(.bold)
-                        .frame(maxWidth: 120, alignment: .trailing)
+                        .font(Design.Fonts.body)
+                        .foregroundColor(Design.Colors.blackTitleColor)
                     
                     Text(movie.releasedDate ?? "")
-                        .font(.system(size: 16))
+                        .font(Design.Fonts.body)
+                        .foregroundColor(Design.Colors.grayTextColor)
+                    
                         .frame(maxWidth: .infinity, alignment: .leading)
-                        .foregroundColor(.gray)
                     Spacer()
                 }
             }
+            Spacer()
         }
     }
 }
