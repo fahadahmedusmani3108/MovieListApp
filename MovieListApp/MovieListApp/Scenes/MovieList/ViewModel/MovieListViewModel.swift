@@ -29,6 +29,7 @@ class MovieListViewModel: MovieListViewModelProtocol{
         self.movieList = []
     }
     
+    //loading movies from repository
     @MainActor
     func loadMovies(){
         isLoading = true

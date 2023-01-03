@@ -133,84 +133,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D72DA50A-4291-40F3-8F93-27D04F144472"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieListApp/Network/APIClient.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getMovies()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D72DA50A-4291-40F3-8F93-27D04F144472 - 8d14c92a8db15503"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for MovieListApp.MovieNetworkService.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
-                  moduleName = "MovieListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Network/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "73">
-               </Location>
-               <Location
-                  uuid = "D72DA50A-4291-40F3-8F93-27D04F144472 - 3ae8c5dd989d9bc6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for MovieListApp.MovieNetworkService.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
-                  moduleName = "MovieListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Network/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "45">
-               </Location>
-               <Location
-                  uuid = "D72DA50A-4291-40F3-8F93-27D04F144472 - 9b956f9dabf8117d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(3) suspend resume partial function for MovieListApp.MovieNetworkService.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
-                  moduleName = "MovieListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Network/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "64">
-               </Location>
-               <Location
-                  uuid = "D72DA50A-4291-40F3-8F93-27D04F144472 - 6ceadf4554dcb37c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(4) suspend resume partial function for MovieListApp.MovieNetworkService.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
-                  moduleName = "MovieListApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Network/APIClient.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50"
-                  offsetFromSymbolStart = "59">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "045497C9-E412-4CD6-88DC-3AB362CA1251"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -218,8 +140,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,8 +156,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -456,8 +378,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -801,8 +723,8 @@
             filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "fetchMoviesFromServer()"
             landmarkType = "7">
             <Locations>
@@ -1037,8 +959,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "loadMovies()"
             landmarkType = "7">
             <Locations>
@@ -1115,8 +1037,8 @@
             filePath = "MovieListAppTests/MovieListViewModelTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "testGetMovies()"
             landmarkType = "7">
             <Locations>
@@ -1178,8 +1100,8 @@
             filePath = "MovieListAppTests/MovieListViewModelTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "testGetMovies()"
             landmarkType = "7">
             <Locations>
@@ -1226,8 +1148,8 @@
             filePath = "MovieListAppTests/MovieListViewModelTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "testGetMovies()"
             landmarkType = "7">
             <Locations>

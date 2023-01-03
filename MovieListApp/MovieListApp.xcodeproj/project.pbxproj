@@ -19,6 +19,7 @@
 		29489FAE29641AE7008287EC /* MovieList.json in Resources */ = {isa = PBXBuildFile; fileRef = 29489FAD29641AE7008287EC /* MovieList.json */; };
 		29489FB029643D99008287EC /* MovieRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29489FAF29643D99008287EC /* MovieRepositoryTests.swift */; };
 		29489FB229645F6C008287EC /* MovieListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29489FB129645F6C008287EC /* MovieListViewModelTests.swift */; };
+		29489FB42964A8B1008287EC /* MovieNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29489FB32964A8B1008287EC /* MovieNetworkService.swift */; };
 		29D5DAC6295CC89F0039C45D /* SortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC5295CC89F0039C45D /* SortView.swift */; };
 		29D5DAC8295CD1690039C45D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC7295CD1690039C45D /* ListView.swift */; };
 		29D5DACA295CDA330039C45D /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D5DAC9295CDA330039C45D /* MovieListViewModel.swift */; };
@@ -74,6 +75,7 @@
 		29489FAD29641AE7008287EC /* MovieList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MovieList.json; sourceTree = "<group>"; };
 		29489FAF29643D99008287EC /* MovieRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRepositoryTests.swift; sourceTree = "<group>"; };
 		29489FB129645F6C008287EC /* MovieListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTests.swift; sourceTree = "<group>"; };
+		29489FB32964A8B1008287EC /* MovieNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieNetworkService.swift; sourceTree = "<group>"; };
 		29D5DAC5295CC89F0039C45D /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
 		29D5DAC7295CD1690039C45D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		29D5DAC9295CDA330039C45D /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				29D5DAD1295E0E430039C45D /* APIConfiguration.swift */,
 				29D5DAD3295E25E70039C45D /* MovieRouter.swift */,
 				29D5DAD5295E263E0039C45D /* APIClient.swift */,
+				29489FB32964A8B1008287EC /* MovieNetworkService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -589,6 +592,7 @@
 				29D5DAE02960C00D0039C45D /* MovieDetailView.swift in Sources */,
 				2916FF18295C57530008061D /* MovieListRow.swift in Sources */,
 				29D5DAD2295E0E430039C45D /* APIConfiguration.swift in Sources */,
+				29489FB42964A8B1008287EC /* MovieNetworkService.swift in Sources */,
 				29D5DAD9295F39EB0039C45D /* LoaderView.swift in Sources */,
 				29D5DACF295DC05B0039C45D /* MovieRepository.swift in Sources */,
 				2916FEEA295C40440008061D /* MovieListAppApp.swift in Sources */,

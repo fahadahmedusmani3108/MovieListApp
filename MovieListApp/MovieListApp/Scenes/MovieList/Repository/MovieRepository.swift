@@ -33,13 +33,13 @@ class MovieRepository : MovieRepositoryProtocol{
         }
     }
     
+    //fetching from server
     func fetchMoviesFromServer() async throws -> [Movie]?{
         return try await networkService.getMovies()
     }
     
-    //parsing movies from json file
+    //loading movies from json file
     func readMoviesFromJsonFile(fileName: String) throws -> [Movie]?{
-        
         do {
             let data = try readLocalFile(forName: fileName)
 

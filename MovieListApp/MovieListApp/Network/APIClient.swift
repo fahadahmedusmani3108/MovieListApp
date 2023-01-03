@@ -24,22 +24,3 @@ class APIClient{
         }
     }
 }
-
-
-protocol MovieNetworkServiceProtocol{
-    func getMovies() async throws -> [Movie]?
-}
-
-
-class MovieNetworkService: MovieNetworkServiceProtocol{
-    
-    func getMovies() async throws -> [Movie]? {
-        do{
-            return try await APIClient.performRequest(route: MovieRouter.getMovieList)
-        }
-        catch(let exception){
-            throw exception
-        }
-    }
-    
-}
