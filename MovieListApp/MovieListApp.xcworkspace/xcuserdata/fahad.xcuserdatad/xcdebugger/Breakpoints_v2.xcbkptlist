@@ -140,8 +140,8 @@
             filePath = "MovieListApp/Network/APIClient.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "getMovies()"
             landmarkType = "7">
             <Locations>
@@ -218,24 +218,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "loadMovies()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "777E9D62-DFB9-454F-912A-B3A97589184A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,8 +234,8 @@
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -334,6 +318,68 @@
             endingLineNumber = "25"
             landmarkName = "getMovies()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C99D55DD-CA04-4359-A954-C1E32BC7FD54 - dfc4928e90a48066"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "73">
+               </Location>
+               <Location
+                  uuid = "C99D55DD-CA04-4359-A954-C1E32BC7FD54 - a04c3d87caec6c91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "C99D55DD-CA04-4359-A954-C1E32BC7FD54 - 54c8f3bc70ebbab9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  uuid = "C99D55DD-CA04-4359-A954-C1E32BC7FD54 - c6929cd145ff5cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -348,8 +394,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "MovieRepository"
-            landmarkType = "3">
+            landmarkName = "getMovies()"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "889786BF-1D84-4758-A00A-8C1447EAAD05 - c6929cd145ff5c3c"
@@ -404,14 +450,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "8552CB82-4D4C-4A97-A6AE-1771AD55F3F0"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "loadMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -419,17 +465,803 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "D98DA26C-2A0A-4116-8EC7-8D8D2FD5F999"
+            uuid = "82F2A647-451B-42BF-B084-C37A436CDE4C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "82F2A647-451B-42BF-B084-C37A436CDE4C - 5164e8a8ada00b9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MovieListAppTests.MovieListAppTests.testExample() async throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  uuid = "82F2A647-451B-42BF-B084-C37A436CDE4C - 2bbfacbf0f3f5862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async throws -&gt; () in MovieListAppTests.MovieListAppTests.testExample() async throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "82F2A647-451B-42BF-B084-C37A436CDE4C - adab857097c6f91d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in MovieListAppTests.MovieListAppTests.testExample() async throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEE8D1B9-5203-4A8A-BD35-C02910116B42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MovieListAppTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - 1667bbc2c1cbebc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.sut.getter : Swift.Optional&lt;MovieListApp.MovieListViewModel&gt;"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - e9b2dd7eb6b6c43f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.sut.setter : Swift.Optional&lt;MovieListApp.MovieListViewModel&gt;"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - 4f2be82837ac91d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.sut.modify : Swift.Optional&lt;MovieListApp.MovieListViewModel&gt;"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - 29a2dde94c2de0fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.sut.modify : Swift.Optional&lt;MovieListApp.MovieListViewModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - cb5c310b1cfdc71e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; MovieListAppTests.MovieListAppTests"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - a79c18efcd3c917e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.init(selector: ObjectiveC.Selector) -&gt; MovieListAppTests.MovieListAppTests"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "A03B8EA2-AC05-47BD-B1F5-8464BD97FF3B - 36b242c55fd125fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListAppTests.init() -&gt; MovieListAppTests.MovieListAppTests"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListAppTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96181B2F-0617-4A17-8527-4D316677A3BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListAppTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "tearDownWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60464C0E-CE13-4AD7-BF4B-A4D3CA5F6F05"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "readLocalFile(forName:)"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "readMoviesFromJsonFile(fileName:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "60464C0E-CE13-4AD7-BF4B-A4D3CA5F6F05 - d7e68d0eb38b94c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListApp.MovieRepository.readMoviesFromJsonFile(fileName: Swift.String) throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "390">
+               </Location>
+               <Location
+                  uuid = "60464C0E-CE13-4AD7-BF4B-A4D3CA5F6F05 - d7e68d0eb38b94c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListApp.MovieRepository.readMoviesFromJsonFile(fileName: Swift.String) throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EA156B1-FDF8-447F-954F-50DC9DEC11F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieRepositoryTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "testThrowExceptionIfFileNotFound()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6EA156B1-FDF8-447F-954F-50DC9DEC11F5 - 7bb765cb5347bc48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; () in MovieListAppTests.MovieRepositoryTests.testThroughExceptionIfFileNotFound() throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieRepositoryTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6EA156B1-FDF8-447F-954F-50DC9DEC11F5 - 4507cc71412e8feb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; () in MovieListAppTests.MovieRepositoryTests.testThrowExceptionIfFileNotFound() throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieRepositoryTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "6EA156B1-FDF8-447F-954F-50DC9DEC11F5 - 4507cc71412e8fca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Error) -&gt; () in MovieListAppTests.MovieRepositoryTests.testThrowExceptionIfFileNotFound() throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieRepositoryTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FAB145C5-A700-4655-861E-5BFAA6882D95"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchMoviesFromServer()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FAB145C5-A700-4655-861E-5BFAA6882D95 - eb700173d93f8b5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for MovieListApp.MovieRepository.fetchMoviesFromServer() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "66">
+               </Location>
+               <Location
+                  uuid = "FAB145C5-A700-4655-861E-5BFAA6882D95 - c0d4044de335312f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for MovieListApp.MovieRepository.fetchMoviesFromServer() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "FAB145C5-A700-4655-861E-5BFAA6882D95 - e84e9575f14cf58"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MovieListApp.MovieRepository.fetchMoviesFromServer() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "FAB145C5-A700-4655-861E-5BFAA6882D95 - 5f8f3d4512796147"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for MovieListApp.MovieRepository.fetchMoviesFromServer() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "851B832F-A81E-4826-916E-0A4AF9BE330F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieRepositoryTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "testCheckIfMoviesAreFetchedFromMockServerAsync()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "851B832F-A81E-4826-916E-0A4AF9BE330F - 8a992a7f66596750"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; () in MovieListAppTests.MovieRepositoryTests.testCheckIfMoviesAreFetchedFromServer() async -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieRepositoryTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "851B832F-A81E-4826-916E-0A4AF9BE330F - a9661a9217f0894c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MovieListAppTests.MovieRepositoryTests.testCheckIfMoviesAreFetchedFromServerAsync() async throws -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieRepositoryTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE7BD9B9-A867-4348-9652-33E9C708EEB8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8C3771E-243B-4F6D-B1E9-F93D8B3D7159"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "getMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F2BAD0D-38B9-437E-97CC-11681EFA7EC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F2BAD0D-38B9-437E-97CC-11681EFA7EC1 - 54c8f3bc70ebbbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "333">
+               </Location>
+               <Location
+                  uuid = "9F2BAD0D-38B9-437E-97CC-11681EFA7EC1 - 54c8f3bc70ebbbd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "531">
+               </Location>
+               <Location
+                  uuid = "9F2BAD0D-38B9-437E-97CC-11681EFA7EC1 - c6929cd145ff5dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "9F2BAD0D-38B9-437E-97CC-11681EFA7EC1 - c6929cd145ff5dd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for MovieListApp.MovieRepository.getMovies() async throws -&gt; Swift.Optional&lt;Swift.Array&lt;MovieListApp.Movie&gt;&gt;"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/Repository/MovieRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "267">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C85BC61F-CFF4-4FD1-A442-CEB92AAB9B91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "loadMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C85BC61F-CFF4-4FD1-A442-CEB92AAB9B91 - 12ab91fcbb6f0d25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MovieListApp.MovieListViewModel.loadMovies() -&gt; ()"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "C85BC61F-CFF4-4FD1-A442-CEB92AAB9B91 - 363f4b6ffa691afa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in MovieListApp.MovieListViewModel.loadMovies() -&gt; ()"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "C85BC61F-CFF4-4FD1-A442-CEB92AAB9B91 - 9a748566b49b393f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MovieListApp.MovieListViewModel.loadMovies() -&gt; ()"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "C85BC61F-CFF4-4FD1-A442-CEB92AAB9B91 - d9e3029bcdc0df3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MovieListApp.MovieListViewModel.loadMovies() -&gt; ()"
+                  moduleName = "MovieListApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListApp/Scenes/MovieList/ViewModel/MovieListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "126">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1885A023-E232-41A0-8FDA-F0232BA05F2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testGetMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1885A023-E232-41A0-8FDA-F0232BA05F2D - f5755a24a922210e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "1885A023-E232-41A0-8FDA-F0232BA05F2D - f5755a24a922212f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "1885A023-E232-41A0-8FDA-F0232BA05F2D - f5755a24a922216d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805E833E-9C1F-4FF9-852E-FF3074BB432C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testGetMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "805E833E-9C1F-4FF9-852E-FF3074BB432C - e7ae21468e12e1b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MovieListApp.Movie&gt;) -&gt; () in MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "805E833E-9C1F-4FF9-852E-FF3074BB432C - e7ae21468e12e1f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MovieListApp.Movie&gt;) -&gt; () in MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABD75F3A-548C-40C2-AA13-986B8557B886"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieListAppTests/MovieListViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "testGetMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ABD75F3A-548C-40C2-AA13-986B8557B886 - e7ae21468e12e192"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MovieListApp.Movie&gt;) -&gt; () in MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "ABD75F3A-548C-40C2-AA13-986B8557B886 - e7ae21468e12e1d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MovieListApp.Movie&gt;) -&gt; () in MovieListAppTests.MovieListViewModelTests.testGetMovies() -&gt; ()"
+                  moduleName = "MovieListAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fahad/Documents/Personal/MovieListApp/MovieListApp/MovieListAppTests/MovieListViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

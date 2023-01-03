@@ -11,20 +11,22 @@ import SwiftUI
 protocol MovieListViewModelProtocol : ObservableObject{
     var movieList: [Movie] { get set }
     var isLoading: Bool { get set }
-    var error: Error? { get set }
+    var error: Errors? { get set }
     func loadMovies()
 }
 
 class MovieListViewModel: MovieListViewModelProtocol{
     
-    @Published var movieList : [Movie] = []
-    @Published var isLoading : Bool = false
-    @Published var error: Error?
+    @Published var movieList : [Movie]
+    @Published var isLoading : Bool
+    @Published var error: Errors?
     
-    private var repository: MovieRepositoryProtocol
+    var repository: MovieRepositoryProtocol
     
     init(repository: MovieRepositoryProtocol) {
         self.repository = repository
+        self.isLoading = false
+        self.movieList = []
     }
     
     @MainActor
@@ -33,13 +35,12 @@ class MovieListViewModel: MovieListViewModelProtocol{
         Task(){
             do{
                 self.movieList = try await repository.getMovies() ?? []
-                print(movieList)
                 isLoading = false
             }
             catch(let exception){
                 print(exception)
                 isLoading = false
-                error = Error.invalidResponseFromServer
+                error = exception as? Errors
             }
         }
     }

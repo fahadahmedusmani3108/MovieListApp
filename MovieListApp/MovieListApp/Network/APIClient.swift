@@ -25,9 +25,11 @@ class APIClient{
     }
 }
 
+
 protocol MovieNetworkServiceProtocol{
     func getMovies() async throws -> [Movie]?
 }
+
 
 class MovieNetworkService: MovieNetworkServiceProtocol{
     
@@ -39,5 +41,5 @@ class MovieNetworkService: MovieNetworkServiceProtocol{
             throw exception
         }
     }
+    
 }
-

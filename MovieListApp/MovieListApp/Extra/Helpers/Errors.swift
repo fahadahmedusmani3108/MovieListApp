@@ -7,17 +7,28 @@
 
 import Foundation
 
-enum Error: LocalizedError {
+enum Errors: LocalizedError {
     
     case invalidResponseFromServer
+    case jsonFileNotFound
+    case invalidJsonFile
     
     var errorDescription: String? {
         switch self {
         case .invalidResponseFromServer:
             return "Unable to process your request at the moment."
+            
+        case .jsonFileNotFound:
+            return "JSON file not found. Please validate filename."
+        case .invalidJsonFile:
+            return "Unable to read JSON file content"
         }
+
+  
     }
-}
+    
+    }
+
 
 struct LocalizedAlertError: LocalizedError {
     
@@ -29,7 +40,7 @@ struct LocalizedAlertError: LocalizedError {
         underlyingError.recoverySuggestion
     }
 
-    init?(error: Error?) {
+    init?(error: Errors?) {
         guard let localizedError = error else { return nil }
         underlyingError = localizedError
     }
