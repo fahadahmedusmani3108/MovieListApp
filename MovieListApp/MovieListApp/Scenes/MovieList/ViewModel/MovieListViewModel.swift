@@ -41,7 +41,6 @@ class MovieListViewModel: MovieListViewModelProtocol{
                 isLoading = false
                 error = Error.invalidResponseFromServer
             }
-            
         }
     }
 }
