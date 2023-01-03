@@ -14,7 +14,7 @@ struct DescriptionSection: View {
     var body: some View {
         
         VStack(spacing: 20){
-            Text("Short Description")
+            Text(AppStrings.shortDescription)
                 .font(Design.Fonts.title)
                 .foregroundColor(Design.Colors.blackTitleColor)
                 .frame(maxWidth: .infinity, alignment: .leading)

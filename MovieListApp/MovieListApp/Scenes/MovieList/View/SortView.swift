@@ -14,23 +14,23 @@ struct SortView: View {
     
     var body: some View {
         
-        Button("Sort") {
+        Button(AppStrings.sort) {
             presentAlert = true
         }
         
         .foregroundColor(.black)
         
-        .alert("Sort By", isPresented: $presentAlert) {
+        .alert(AppStrings.sortBy, isPresented: $presentAlert) {
             
-            Button("Title") {
+            Button(AppStrings.title) {
                 movieList.sort(by: { $0.title! < $1.title! })
             }
             
-            Button("Release Date") {
+            Button(AppStrings.releaseDate) {
                 movieList.sort(by: { $0.releasedDate! < $1.releasedDate! })
             }
             
-            Button("Cancel") {}
+            Button(AppStrings.cancel) {}
         }
         
     }

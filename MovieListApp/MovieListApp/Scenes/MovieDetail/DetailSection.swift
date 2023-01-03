@@ -14,7 +14,7 @@ struct DetailSection: View {
     var body: some View {
         
         VStack(spacing: 25){
-            Text("Details")
+            Text(AppStrings.details)
                 .font(Design.Fonts.title)
                 .foregroundColor(Design.Colors.blackTitleColor)
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -22,7 +22,7 @@ struct DetailSection: View {
             VStack(spacing: 10){
                 
                 HStack(spacing: 20){
-                    Text("Genre")
+                    Text(AppStrings.genre)
                         .font(Design.Fonts.body)
                         .foregroundColor(Design.Colors.blackTitleColor)
                         .frame(maxWidth: 105, alignment: .trailing)
@@ -38,7 +38,7 @@ struct DetailSection: View {
                 
                 
                 HStack(spacing: 20){
-                    Text("Released Date")
+                    Text(AppStrings.releaseDate)
                         .font(Design.Fonts.body)
                         .foregroundColor(Design.Colors.blackTitleColor)
                     

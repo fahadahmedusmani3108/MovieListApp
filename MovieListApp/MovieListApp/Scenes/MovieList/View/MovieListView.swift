@@ -31,7 +31,7 @@ struct MovieListView<vm: MovieListViewModelProtocol> : View {
                 LoaderView()
                     .hidden($viewModel.isLoading.wrappedValue ? false : true)
             }
-            .navigationTitle("Movies")
+            .navigationTitle(AppStrings.movies)
             .toolbar {
                 SortView(movieList: $viewModel.movieList)
             }

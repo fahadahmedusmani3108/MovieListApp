@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2916FEEA295C40440008061D /* MovieListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FEE9295C40440008061D /* MovieListAppApp.swift */; };
-		2916FEEC295C40440008061D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FEEB295C40440008061D /* ContentView.swift */; };
 		2916FEEE295C40460008061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2916FEED295C40460008061D /* Assets.xcassets */; };
 		2916FEF1295C40460008061D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2916FEF0295C40460008061D /* Preview Assets.xcassets */; };
 		2916FEFB295C40470008061D /* MovieListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916FEFA295C40470008061D /* MovieListAppTests.swift */; };
@@ -60,7 +59,6 @@
 		21BC31C55F8E546B107F5B0B /* Pods-MovieListApp-MovieListAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieListApp-MovieListAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MovieListApp-MovieListAppUITests/Pods-MovieListApp-MovieListAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2916FEE6295C40430008061D /* MovieListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2916FEE9295C40440008061D /* MovieListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListAppApp.swift; sourceTree = "<group>"; };
-		2916FEEB295C40440008061D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2916FEED295C40460008061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2916FEF0295C40460008061D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2916FEF6295C40470008061D /* MovieListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,7 +163,6 @@
 				2916FF19295C67DA0008061D /* Models */,
 				2916FF15295C56D70008061D /* Scenes */,
 				2916FEE9295C40440008061D /* MovieListAppApp.swift */,
-				2916FEEB295C40440008061D /* ContentView.swift */,
 				2916FEED295C40460008061D /* Assets.xcassets */,
 				2916FEEF295C40460008061D /* Preview Content */,
 			);
@@ -560,7 +557,6 @@
 			files = (
 				29D5DAF1296219FA0039C45D /* UIColor+Extension.swift in Sources */,
 				29D5DAE02960C00D0039C45D /* MovieDetailView.swift in Sources */,
-				2916FEEC295C40440008061D /* ContentView.swift in Sources */,
 				2916FF18295C57530008061D /* MovieListRow.swift in Sources */,
 				29D5DAD2295E0E430039C45D /* APIConfiguration.swift in Sources */,
 				29D5DAD9295F39EB0039C45D /* LoaderView.swift in Sources */,

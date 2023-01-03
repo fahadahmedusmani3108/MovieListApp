@@ -18,19 +18,19 @@ struct MovieDetailView: View {
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            //Color.gray.frame(height: 1 / UIScreen.main.scale)
+            Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             DescriptionSection(movie: movie)
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            //Color.gray.frame(height: 1 / UIScreen.main.scale)
+            Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             DetailSection(movie: movie)
                 .padding(.top, 10)
                 .padding(.bottom, 10)
             
-            //Color.gray.frame(height: 1 / UIScreen.main.scale)
+            Color.gray.frame(height: 1 / UIScreen.main.scale)
             
             Spacer()
         }

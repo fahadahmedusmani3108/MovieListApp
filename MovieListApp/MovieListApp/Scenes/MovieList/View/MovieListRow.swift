@@ -30,7 +30,7 @@ struct MovieListRow: View {
                     .foregroundColor(Design.Colors.grayTextColor)
                 
                 if movie.isAddedInWatchList ?? false{
-                    Text("ON MY WATCHLIST")
+                    Text(AppStrings.onMyWatchList)
                         .foregroundColor(Design.Colors.blackTitleColor)
                         .font(Design.Fonts.subtitle)
                         .padding(.top, 20)

@@ -3,21 +3,6 @@
 //  MovieListApp
 //
 //  Created by Fahad Ahmed Usmani on 01/01/2023.
-//
-//
-//ZStack{
-//    HStack{
-//        Text("\(movie.rating ?? 0, specifier: "%.1f")")
-//            .font(Design.Fonts.title)
-//            .foregroundColor(Design.Colors.blackTitleColor)
-//
-//        Text("/10")
-//            .font(Design.Fonts.body)
-//            .fontWeight(.bold)
-//            .foregroundColor(Design.Colors.grayTextColor)
-//            .lineLimit(1)
-//    }
-//}
 
 import SwiftUI
 
@@ -53,7 +38,7 @@ struct TopImageSection: View {
                     movie.objectWillChange.send()
                     
                 }) {
-                    Text($movie.isAddedInWatchList.wrappedValue ?? false ? "REMOVE FROM WATCHLIST" : "+ ADD TO WATCHLIST")
+                    Text($movie.isAddedInWatchList.wrappedValue ?? false ? AppStrings.removeWatchList : AppStrings.addToWatchList)
                         .padding(10)
                         .font(Design.Fonts.subtitle)
                         .foregroundColor(Design.Colors.grayTextColor)
@@ -71,7 +56,7 @@ struct TopImageSection: View {
                         UIApplication.shared.open(url)
                     }
                 }) {
-                    Text("WATCH TRAILER")
+                    Text(AppStrings.watchTrailer)
                         .font(Design.Fonts.subtitle)
                     
                         .padding(10)
@@ -95,15 +80,15 @@ struct TopImageSection: View {
                     Text("\(movie.rating ?? 0, specifier: "%.1f")")
                         .font(Design.Fonts.title)
                         .foregroundColor(Design.Colors.blackTitleColor)
-                        
                     
-                    Text("/10")
+                    
+                    Text(AppStrings.rating)
                         .font(Design.Fonts.body)
                         .fontWeight(.bold)
                         .foregroundColor(Design.Colors.grayTextColor)
                         .lineLimit(1)
                         .padding(.trailing, 10)
-                   
+                    
                 }
                 Spacer()
             }

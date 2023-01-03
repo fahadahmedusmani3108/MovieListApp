@@ -28,3 +28,20 @@ struct API {
      static let baseUrl = "https://movieapp1.free.beeceptor.com"
      static let getMoviesList = "/list"
 }
+
+struct AppStrings {
+     static let rating = "/10"
+     static let watchTrailer = "WATCH TRAILER"
+    static let removeWatchList = "REMOVE FROM WATCHLIST"
+    static let addToWatchList = "+ ADD TO WATCHLIST"
+    static let shortDescription = "Short Description"
+    static let releaseDate = "Released Date"
+    static let genre = "Genre"
+    static let details = "Details"
+    static let sort = "Sort"
+    static let sortBy = "Sort By"
+    static let title = "Title"
+    static let cancel = "Cancel"
+    static let movies = "Movies"
+    static let onMyWatchList = "ON MY WATCHLIST"
+}
