@@ -1,15 +1,15 @@
 # MovieListApp
 
 #Architecture
-MVVM archtecture with repository pattern.
+- MVVM archtecture with repository pattern.
 
 #Frameworks
-SwiftUI
-Combine
-XCTest for viewModel and Repository test cases
+- SwiftUI
+- Combine
+- XCTest for viewModel and Repository test cases
 
 #Pod Dependencies
-Alamofire Networking library 
+- Alamofire Networking library 
 
 #KeyPoints
 - I am using beeceptor for mock services. URL can be updated from AppConstant file.
