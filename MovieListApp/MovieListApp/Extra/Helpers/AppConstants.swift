@@ -25,7 +25,7 @@ struct Design {
 }
 
 struct API {
-     static let baseUrl = "https://movieapp1.free.beeceptor.com"
+     static let baseUrl = "https://moviesapp.free.beeceptor.com"
      static let getMoviesList = "/list"
 }
 
